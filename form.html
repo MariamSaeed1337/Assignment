@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div style="height: 600px; width: 450px; border: 2px solid black;">
+<br>
+           <table>
+            <tr>
+                <td>
+                    <img src="child.jpg" alt="picture" height="50px" width="100px" margin-top="50px" >
+                </td>
+                <td>
+                    <h2>Employee Registeration Form</h2>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="radio" name="employye">Mr.
+                    <input type="radio" name="employye">Mrs.
+                    <input type="radio" name="employye">Ms.
+                </td>
+            </tr>
+            <tr>
+                <td>First Name:</td>
+                <td>
+                    <input type="text" name="firstname" placeholder="First Name">
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name: </td>
+                <td>
+                    <input type="text" name="lastname" placeholder="Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                     MainAddress1:
+                </td>
+                <td>
+                    <input type="text" name="address1" >
+                </td>
+            </tr>
+            <td>
+                MainAddress2:
+           </td>
+           <td>
+               <input type="text" name="address2" >
+           </td>
+       </tr>
+       <tr>
+        <td>
+            City: 
+        </td>
+        <td>
+            <input type="text" name="city">
+        </td>
+       </tr>
+       <tr>
+        <td>
+            State:
+        </td>
+        <td>
+            <select name="state">
+                <option name="Gujrat">Gujrat</option>
+                <option name="Gujrat">Sialkot</option>
+                <option name="Gujrat">Islamabad</option>
+            </select>
+        </td>
+       </tr>
+       <tr>
+        <td>Email: </td>
+        <td>
+            <input type="email" name="email" Pattern ="[a z0 9._%+9._%+--]+@[a z0 9.9.--]+]+\\.[a z]{2,}$">   
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Upload File
+        </td>
+        <td>
+            <input type="file" name="file" >
+        </td>
+    </tr>
+    <tr>
+      <td>Telephone:</td>
+      <td>
+        <input type="tel" name="Telephone" placeholder="+91">
+      </td>
+      <tr>
+        <td>
+            Languages Known
+        </td>
+        <td>
+            <input type="checkbox" name="languages">Gujrati<br>
+            <input type="checkbox" name="languages">English<br>
+            <input type="checkbox" name="languages">Hindi<br>
+            <input type="checkbox" name="languages">Marathi
+        </td>
+      </tr>
+      <tr>
+        <td>
+            Additional Information:
+        </td>
+        <td> 
+            <textarea name="message" cols="30" rows="6" optional  placeholder="optional"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="1" align="center"></td>
+        <td>
+            <input type="button" name="reset" value="Reset" >
+        </td>
+        <td colspan="1" align="left"></td>
+        <td>
+            <input type="button" name="submit" value="submit" >
+        </td>
+
+           </table>
+    </div>
+</body>
+</html>
